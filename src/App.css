@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.title{
+  font-size: 1em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+}
+
+.card{
+  background-color: rgb(55, 94, 55);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10%;
+  margin: 5px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+
+.starshipCard{
+  background-color: rgb(55, 94, 55);
+  padding: 0 20px 20px 20px;
+  border-radius: 5%;
+  color: white;
+}
+
+.link{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin:0 auto;
+  text-decoration: underline;
+}
+
+th{
+  text-align: left;
+}
+
+td{
+  text-align: right;
+}
